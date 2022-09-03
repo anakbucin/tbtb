@@ -4,7 +4,7 @@ function mulaiketik1(){
     kalimat.innerHTML += vketik1.charAt(aa);aa++;
     setTimeout(mulaiketik1,100);
   }
-  if(aa==vketik1.length){setTimeout(befanim,1500);setTimeout(gantikalimat2,2600);}
+  if(aa==vketik1.length){setTimeout(befanim,1500);setTimeout(gantikalimat2,1800);}
 }
 
   vketik2=kalimatb.innerHTML;kalimatb.innerHTML = "";
