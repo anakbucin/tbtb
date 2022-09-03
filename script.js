@@ -2,9 +2,9 @@ vketik1=kalimat.innerHTML;kalimat.innerHTML = "";var aa=0,vketik1;
 function mulaiketik1(){
   if(aa<vketik1.length){
     kalimat.innerHTML += vketik1.charAt(aa);aa++;
-    setTimeout(mulaiketik1,20000);
+    setTimeout(mulaiketik1,100);
   }
-  if(aa==vketik1.length){setTimeout(befanim,1500);setTimeout(gantikalimat2,1800);}
+  if(aa==vketik1.length){setTimeout(befanim,1500);setTimeout(gantikalimat2,2600);}
 }
 
   vketik2=kalimatb.innerHTML;kalimatb.innerHTML = "";
